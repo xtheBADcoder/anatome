@@ -1,0 +1,30 @@
+name: "CLA Assistant"
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_target:
+    types: [opened, closed, synchronize]
+
+# Permissions required to comment on PRs and set commit status
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+  statuses: write
+
+jobs:
+  CLAssistant:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "CLA Assistant"
+        if: (github.event.comment.body == 'recheckcla' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request_target'
+        uses: contributor-assistant/github-action@v2.6.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          path-to-signatures: '.github/signatures/cla.json'
+          path-to-cla-document: 'https://github.com/${{ github.repository }}/blob/main/cla.md'
+          branch: 'main'
+          allowlist: 'dependabot[bot],greenkeeper[bot],renovate[bot],bot*'
+          custom-notsigned-prcomment: 'Thank you for your pull request! Before we can accept your contribution, you must sign the [Anatome Studio Contributor License Agreement (CLA)](https://github.com/${{ github.repository }}/blob/main/cla.md).<br/><br/>To sign, please reply to this pull request with the exact text:<br/>`I have read the CLA Document and I hereby sign the CLA`'

@@ -1,27 +1,39 @@
-# Anatome Studio — Commercial Licensing & Partner Terms
+# Anatome Studio — Commercial Dual-Licensing & Partner Terms
 
-Anatome Studio is source-available and free for academic research, education, and non-commercial evaluation under the PolyForm Noncommercial License 1.0.0.
-
----
-
-## 1. When Is a Commercial License Required?
-
-You must obtain an Anatome Commercial License if you:
-1. Deploy or run Anatome Studio within a for-profit biotechnology, pharmaceutical, or CRO pipeline.
-2. Use Anatome Studio to discover, optimize, or develop proprietary commercial therapeutic assets.
-3. Deploy Anatome Studio as an independent consultant or agency delivering paid client solutions.
-4. Integrate Anatome Studio into a closed or commercial software service.
+Anatome Studio is licensed to the public under the **GNU Affero General Public License v3 (AGPLv3)**.
 
 ---
 
-## 2. Self-Hosted Commercial License Tiers (Code-Only / Private VPC)
+## 1. Why AGPLv3?
 
-* **Biotech / Startup Tier:** $10,000 / year (up to 5 computational/medicinal chemists, private self-hosted deployment).
-* **Enterprise Pharma Tier:** $35,000 / year (unlimited seats, custom internal VPC deployment, 21 CFR Part 11 commercial compliance rights).
+The AGPLv3 is an official copyleft open-source license. It allows developers, students, researchers, and academics to freely inspect, run, modify, and distribute the software.
+
+**The Copyleft Network Requirement (Section 13):**  
+If you modify Anatome Studio or integrate it into a network-accessible service, **you are legally obligated to make the complete corresponding source code of your modified version publicly available under the AGPLv3.**
 
 ---
 
-## 3. Contributor & Agency Partner Network
+## 2. When Do You Need a Commercial License?
+
+Pharmaceutical companies, commercial biotechs, CROs, and consultants often cannot or will not open-source their proprietary modifications, confidential target assays, screening workflows, or custom internal code.
+
+If you wish to use Anatome Studio **without being subject to the copyleft obligations of the AGPLv3**, you must purchase an **Anatome Commercial License**.
+
+### Benefits of the Commercial License:
+- **Complete Copyleft Waiver:** Keep all your proprietary code, custom internal workflows, target assay integrations, and downstream pipelines 100% closed-source and confidential.
+- **Enterprise Indemnification:** Full intellectual property and commercial warranty protections.
+- **Enterprise Features & Support:** Private release tags, GxP / 21 CFR Part 11 commercial compliance verification, and direct engineering SLA support.
+
+---
+
+## 3. Commercial License Tiers (Self-Hosted / Private VPC)
+
+* **Biotech / Startup Commercial License:** $10,000 / year (up to 5 computational/medicinal chemists, private self-hosted deployment).
+* **Enterprise Pharma Commercial License:** $35,000 / year (unlimited seats, custom internal VPC deployment, 21 CFR Part 11 commercial compliance rights).
+
+---
+
+## 4. Contributor & Agency Partner Network
 
 Are you an independent bioinformatician, computational chemist, or agency building custom workflows for biotech clients?
 * Contributors and agencies can fork Anatome Studio to deliver custom solutions for their clients.

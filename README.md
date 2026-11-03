@@ -4,7 +4,8 @@
 > Powered by NVIDIA BioNeMo microservices, 3D structural biology, private LoRA model adaptation, and wet-lab automation.
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Platform-blue)](https://anatome-studio-3810.web.app)
-[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial-green.svg)](LICENSE.md)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE.md)
+[![CLA Assistant](https://img.shields.io/badge/CLA-Required-brightgreen.svg)](cla.md)
 [![NVIDIA BioNeMo](https://img.shields.io/badge/Powered%20By-NVIDIA%20BioNeMo-76B900.svg)](https://build.nvidia.com)
 
 ---
@@ -83,11 +84,19 @@ Anatome supports **Hybrid Execution Mode**:
 
 ---
 
-## 📜 Licensing
+## 📜 Licensing & Dual-License Model
 
-This repository is source-available under the **PolyForm Noncommercial License 1.0.0**.
+This repository is licensed under the **GNU Affero General Public License v3 (AGPLv3)**.
 
-- **Academic, Research & Non-Commercial Use:** Free to inspect, clone, and run for students, academic researchers, and non-commercial evaluation.
-- **Commercial Deployment & Pharma Use:** Commercial use within for-profit biotechs, pharmaceutical pipelines, or paid consulting requires an **Anatome Commercial License**.
+- **Open Source & Academic Research:** Free to inspect, clone, modify, and run under the terms of AGPLv3. Any network-accessible distribution or modification must be released under AGPLv3 copyleft terms.
+- **Commercial & Enterprise Use:** If you wish to use Anatome Studio within a commercial pharmaceutical pipeline, CRO, or proprietary environment without being subject to the AGPLv3 copyleft open-source obligations, an **Anatome Commercial License** is required.
 
-See [COMMERCIAL_TERMS.md](COMMERCIAL_TERMS.md) for licensing tiers and partner revenue-share details, or reach out to **licensing@anatome.bio**.
+See [COMMERCIAL_TERMS.md](COMMERCIAL_TERMS.md) for commercial licensing tiers, private VPC deployment rights, and partner revenue-share details, or contact **licensing@anatome.bio**.
+
+---
+
+## 🤝 Contributing
+
+We welcome community contributions! Because Anatome operates a dual-licensing model, all contributors must sign our [Contributor License Agreement (CLA)](cla.md). 
+
+When you open a Pull Request, the automated **CLA Assistant** bot will prompt you to sign by leaving a comment.
