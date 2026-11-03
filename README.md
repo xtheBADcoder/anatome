@@ -30,6 +30,36 @@ Unlike general LLM interfaces that operate purely on 1D text tokens, Anatome ope
 
 ---
 
+## 📂 Repository Structure
+
+```text
+anatome/
+├── .github/
+│   └── workflows/
+│       └── cla.yml             # Automated Contributor License Agreement (CLA) Assistant bot
+├── backend/                    # Python / FastAPI biocomputational backend services
+│   ├── Dockerfile              # Containerization for Cloud Run / AWS / local deployment
+│   ├── main.py                 # FastAPI endpoints for BioNeMo NIM proxies, PDB prep, and simulations
+│   ├── requirements.txt        # Backend dependencies (FastAPI, httpx, uvicorn, pydantic)
+│   └── .env.example            # Backend environment template (NVIDIA NGC API keys)
+├── public/                     # Static assets, SVG icons, and browser favicons
+├── src/                        # React + TypeScript frontend application
+│   ├── assets/                 # Brand graphics and 3D illustration assets
+│   ├── App.tsx                 # Core workspace UI, 3D viewport, and tab orchestrator
+│   ├── App.css                 # Platform component styling and layout definitions
+│   ├── index.css               # Design tokens, theme variables, and global typography
+│   └── main.tsx                # React application entry point
+├── .env.example                # Frontend environment template
+├── .gitignore                  # Git ignore rules (strictly guards keys, venv, and build artifacts)
+├── cla.md                      # Legal Contributor License Agreement for external PRs
+├── COMMERCIAL_TERMS.md         # Commercial dual-licensing terms and partner network details
+├── LICENSE.md                  # GNU Affero General Public License v3 (AGPLv3)
+├── package.json                # Frontend dependencies, scripts, and build metadata
+└── README.md                   # Project documentation and quick-start guide
+```
+
+---
+
 ## 🛠️ Quick Start
 
 ### 1. Prerequisites
