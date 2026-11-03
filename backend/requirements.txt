@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+numpy
+nibabel
+monai
+requests
+pydicom
+Pillow
