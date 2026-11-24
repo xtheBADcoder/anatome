@@ -125,8 +125,21 @@ See [COMMERCIAL_TERMS.md](COMMERCIAL_TERMS.md) for commercial licensing tiers, p
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributing & Scientific Collaboration
 
-We welcome community contributions! Because Anatome operates a dual-licensing model, all contributors must sign our [Contributor License Agreement (CLA)](cla.md). 
+We are building Anatome Studio as a collaborative engine for **real-world therapeutic breakthroughs**. Whether you are a computational chemist benchmark-testing new kinase binders, an ML researcher integrating novel diffusion architectures, or an open-source engineer, we welcome your contributions!
 
-When you open a Pull Request, the automated **CLA Assistant** bot will prompt you to sign by leaving a comment.
+- 📖 **Contributor Guide:** See our [CONTRIBUTING.md](CONTRIBUTING.md) for active research tracks, local setup, and architectural guidelines.
+- 🎯 **Good First Issues:** Check open issues tagged with `scientific-breakthrough` and `enhancement`.
+- ✍️ **CLA Agreement:** When you submit a Pull Request, our automated **CLA Assistant** bot will prompt you to sign the [Contributor License Agreement](cla.md) via a single comment.
+
+### 📚 Citation
+If you use Anatome Studio in academic literature, preclinical discovery campaigns, or molecular engineering benchmarks, please cite:
+```bibtex
+@software{anatome_studio_2026,
+  author = {Anatome Studio Contributors},
+  title = {Anatome Studio: An Open Biocomputational Operating System for Molecular Drug Discovery},
+  url = {https://github.com/xtheBADcoder/anatome},
+  year = {2026}
+}
+```
